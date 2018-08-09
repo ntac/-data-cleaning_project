@@ -1,4 +1,4 @@
-instrauctions to run the code run_analysis.R
+instructions to run the code run_analysis.R
 
 1- Introductory Note: while compressing the downloaded data set, you will get to an intermediate folder named , 
 "UCI HAR Dataset" that contains de sub-folder of the training set and the subfolder of the test set,
