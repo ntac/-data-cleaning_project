@@ -14,7 +14,7 @@ act_label<-"UCI HAR Dataset/activity_labels.txt"
 
 # 1 -1 getting the training data
  
-  #a- reding the files
+  #a- reading the files
   
   data_train <-read.table(paste0(path,Xtrain), header = FALSE)
   act_train  <-read.table(paste0(path,act_train), header = FALSE)
@@ -74,6 +74,7 @@ act_label<-"UCI HAR Dataset/activity_labels.txt"
   #rwiting the data to a txt
 
  write.table(dat,file=paste0(path,"finaldata.txt"), sep = " ", row.name=FALSE )
+ #writing column names to a file
  write.table(data.frame(names( dat)),file=paste0(path,"columns.txt"), sep = " ", row.name=FALSE, col.names = F)
              
    
