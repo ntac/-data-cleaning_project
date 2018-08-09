@@ -36,3 +36,4 @@ fBodyGyroJerkMag
 The 82 columns of the data in finaldata.txt are shown in the file columns.txt this file is created by the run_analysis.R code
 
 
+
