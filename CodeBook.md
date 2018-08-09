@@ -1,3 +1,11 @@
+Information on the amalysis file 
+
+The purpose of this project is to create a tidy dataset from the data provided, 
+the input data is found here:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
 The file finaldata.txt is the agregated data set containing:
 The first three colums contain:
 1- The source that identifies the row as a training data row(train) or test data row(test)
@@ -25,6 +33,6 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 
-The 82 columns of the data in finaldata.txt are shown in the file columns.txt
+The 82 columns of the data in finaldata.txt are shown in the file columns.txt this file is created by the run_analysis.R code
 
 
